@@ -22,17 +22,7 @@ int mode = 0; //로봇 부팅 시 모드를 변경하기 위한 변수 정의
 
 /*****************************스위치 정의****************************/
 
-#define Switch_DDR DDRA
-#define Switch_CLR 0x00
 
-#define SW_0 !(PINA & 0x01)		//안되면 not 없애기
-#define SW_1 !(PINA & 0x02)
-#define SW_2 !(PINA & 0x04)
-#define SW_3 !(PINA & 0x08)
-#define SW_4 !(PINA & 0x10)
-#define SW_5 !(PINA & 0x20)
-#define SW_6 !(PINA & 0x40)
-#define SW_7 !(PINA & 0x80)
 
 
 /*****************************LED*****************************/
